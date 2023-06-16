@@ -1,24 +1,62 @@
 # Github에 처음 올리기
 
-1. 초기화 : `git init`
-2. 추가할 파일 더하기 : `git add .`
-3. 상태 확인 : `git status`
-4. 히스토리 만들기 : `git commit -m "first commit"`
-5. 메인 브랜치 지정 : `git branch -M main`
-6. Github repository랑 내 로컬 프로젝트 연결 : `git remote add origin https://github.com/~~~~.git`
-   Github repository가 private인 경우 : `git remote add origin git@github.com:username/reponame.git`
-7. 연결 확인 : `git remote -v`
-8. Github로 올리기 : `git push -u origin main`
+1. 초기화
+```
+git init
+```
+2. 추가할 파일 더하기
+```
+git add .
+```
+3. 상태 확인
+```
+git status
+```
+4. 히스토리 만들기
+```
+git commit -m "first commit"
+```
+5. 메인 브랜치 지정
+```
+git branch -M main
+```
+6. Github repository랑 내 로컬 프로젝트 연결
+```
+git remote add origin https://github.com/~~~~.git
+```
+   Github repository가 private인 경우
+```
+git remote add origin git@github.com:username/reponame.git
+```
+7. 연결 확인
+```
+git remote -v
+```
+8. Github로 올리기
+```
+git push -u origin main
+```
 <br/><br/>
 
 # Github에 강제로 올리기 (에러 발생할 때)
-`git push -u origin main --force`
+```
+git push -u origin main --force
+```
 <br/><br/>
 
 # Github에 계속 업데이트 하는 방법
-1. 추가할 파일 더하기 : `git add .`
-2. 히스토리 만들기 : `git commit - m "second commit"`
-3. Github로 올리기 : `git push origin main`
+1. 추가할 파일 더하기
+```
+git add .
+```
+2. 히스토리 만들기
+```
+git commit - m "second commit"
+```
+3. Github로 올리기
+```
+git push origin main
+```
 <br/><br/>
 
 # Github repository가 private인 경우
